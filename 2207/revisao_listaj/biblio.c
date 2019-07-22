@@ -38,7 +38,7 @@ void insereFim(lista *L, int valorNovo){
     }
     L->fim = novo;
 };
-
+/*
 void removeInicio(lista *L){
   lista *aux = no;
   if(listaVazia(aux)){
@@ -52,5 +52,28 @@ void removeInicio(lista *L){
     printf("\nValor: %d\n", L->valor);
     return list;
   }
+}
+*/
+int removerInicio(lista *L){
+   if(listaVazia(aux)){
+        printf("Essa lista está vazia!\n");
+   }
+   if(L->ini == L->fim){
+    NO *aux;
+    int salvaValor;
+    aux = L->ini;
+    free(aux);
+    L->ini = L->fim = NULL;
+    return salvaValor;
+
+   }else{
+       int valor = L->ini->valor;
+       NO *aux = L->ini;
+       L->ini = aux->prox;
+       L->ini->ant = NULL;
+       free(aux);
+       return valor;
+
+   }
 }
 
