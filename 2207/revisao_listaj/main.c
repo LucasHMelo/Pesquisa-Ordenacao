@@ -92,11 +92,9 @@ int main()
             while (escolha!=0){
                 printf("\n Revisão de Estrutura de Dados ");
                 printf("\n\n ----------------------- ");
-                printf("\n 1 - Inserir Inicio ");
-                printf("\n 2 - Inserir Fim");
-                printf("\n 3 - Remover Inicio");
-                printf("\n 4 - Remover Fim ");
-                printf("\n 5 - Mostrar Lista ");
+                printf("\n 1 - Inserir Fila ");
+                printf("\n 2 - Remover Fila");
+                printf("\n 3 - Mostrar Fila");
                 printf("\n 0 - Voltar ");
                 printf("\n\n Escolha uma opcao: ");
                 scanf("%d",&escolha);
@@ -122,10 +120,7 @@ int main()
                             break;
                         }
                         case 4:{
-                            system("cls");
-                            printf("\n\n Opcao escolhida: 4 ");
-                            printf("\n\n Removendo do inicio ");
-                            break;
+                            return;
                         }
                     }
             break;
@@ -138,11 +133,9 @@ int main()
             while (escolha!=0){
                 printf("\n Revisão de Estrutura de Dados ");
                 printf("\n\n ----------------------- ");
-                printf("\n 1 - Inserir Inicio ");
-                printf("\n 2 - Inserir Fim");
-                printf("\n 3 - Remover Inicio");
-                printf("\n 4 - Remover Fim ");
-                printf("\n 5 - Mostrar Lista ");
+                printf("\n 1 - Inserir Pilha ");
+                printf("\n 2 - Remover Pilha");
+                printf("\n 3 - Mostrar Pilha");
                 printf("\n 0 - Voltar ");
                 printf("\n\n Escolha uma opcao: ");
                 scanf("%d",&escolha);
@@ -169,9 +162,7 @@ int main()
                         }
                         case 4:{
                             system("cls");
-                            printf("\n\n Opcao escolhida: 4 ");
-                            printf("\n\n Removendo do inicio ");
-                            break;
+                            return;
                         }
                     }
             break;
