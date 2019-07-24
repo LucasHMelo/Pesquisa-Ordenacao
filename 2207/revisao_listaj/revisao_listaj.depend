@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1563987816 source:c:\users\lucas\desktop\iftm - 20192\po\2207\revisao_listaj\biblio.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"main.h"
+
+1563988857 source:c:\users\lucas\desktop\iftm - 20192\po\2207\revisao_listaj\fila.c
+	"main.h"
+	<stdio.h>
+	<stdlib.h>
+
+1563988139 c:\users\lucas\desktop\iftm - 20192\po\2207\revisao_listaj\main.h
+
+1563988836 source:c:\users\lucas\desktop\iftm - 20192\po\2207\revisao_listaj\main.c
+	"main.h"
+	"fila.c"
+	"biblio.c"
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1563988857 c:\users\lucas\desktop\iftm - 20192\po\2207\revisao_listaj\fila.c
+	"main.h"
+	<stdio.h>
+	<stdlib.h>
+
+1563987816 c:\users\lucas\desktop\iftm - 20192\po\2207\revisao_listaj\biblio.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"main.h"
+
