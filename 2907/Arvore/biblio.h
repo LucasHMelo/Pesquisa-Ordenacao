@@ -2,9 +2,9 @@
 #define BIBLIO_H_INCLUDED
 
 typedef struct{
-    int chave;
-    struct NO *esq,*dir;
-}NO;
+    int dado;
+    struct no *esq,*dir;
+}no;
 
 
 

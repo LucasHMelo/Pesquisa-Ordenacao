@@ -6,7 +6,7 @@
 
 int main()
 {
-    NO *raiz;
+    no *raiz;
     raiz = NULL;
     setlocale(LC_ALL, "Portuguese");
     int escolha;
@@ -28,14 +28,16 @@ int main()
                 int valor;
                 printf("Digite um numero: ");
                 scanf("%d",&valor);
-                insereElementos(raiz,valor);
+                raiz = inserir_arvore(raiz,valor);
                 break;
 
         }
         case 2:
             {
                 system("cls");
-                mostrarArvore(raiz);
+            em_ordem(raiz);
+            printf("%\n\n\n");
+            system("pause");
                 break;
             }
         default:

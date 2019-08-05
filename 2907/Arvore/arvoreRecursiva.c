@@ -10,7 +10,7 @@ NO* cria_arvore()
     l->inicio=NULL;
     l->fim=NULL;
   return l;
-}*/
+}
 
 arvore_vazia(NO *l)
 {
@@ -22,43 +22,46 @@ arvore_vazia(NO *l)
 
 NO* insereElementos(NO *l, int chave)
 {
+    NO *novo;
+    novo = (NO*)malloc(sizeof(NO));
+    novo->chave = chave;
+    novo->esq= NULL;
+    novo->dir = NULL;
     if(!arvore_vazia(l)){
-    l->chave=(NO*)malloc(sizeof(NO));
-    l->chave=chave;
-    l->esq= NULL;
-    l->dir = NULL;
-    return l;
+        l = novo;
+        return l;
     }else{
         if(chave > l->chave){
           insereElementos(&l->esq,chave);
+          return l;
     }else{
           insereElementos(&l->dir,chave);
+          return l;
     }
-    return l;
-    }
+}
 
-/*
+
     if (l->fim == NULL)
         l->fim=l->inicio;
     else
         l->inicio->ant = novo;
-    l->inicio=novo;*/
+    l->inicio=novo;
 
 }
 
-NO* mostrarArvore(NO *l)
+void mostrarArvore(NO *l)
 {
     if(!arvore_vazia(l)){
         printf("%d", l->chave);
         mostrarArvore(l->esq);
         mostrarArvore(l->dir);
-        return l;
+
     }else{
         printf("Arvore Vazia");
     }
 
 }
-/*
+
 int removerinicio(NO *L){
    //if(lista_vazia(aux)){
    //     printf("Essa lista está vazia!\n");
@@ -104,4 +107,64 @@ int removeFim(lista *L){
 
    }
 }*/
+
+no* inserir_arvore(no *raiz, int dado)
+{
+    no *novo, *aux;
+    novo=(no*)malloc(sizeof(no));
+    novo->dado=dado;
+    novo->dir=NULL;
+    novo->esq=NULL;
+    if (raiz == NULL)
+    {
+        raiz=novo;
+    }
+    else
+    {
+        aux=raiz;
+        no* ant;
+        while (aux != NULL)
+        {
+            if (dado < aux->dado)
+            {
+                ant=aux;
+                aux=aux->esq;
+            }
+            else
+            {
+                ant=aux;
+                aux=aux->dir;
+            }
+
+        }
+        if (dado < ant->dado)
+            ant->esq=novo;
+        else
+            ant->dir=novo;
+
+
+    }
+    return raiz;
+}
+
+void em_ordem (no *raiz)
+{
+    if (raiz != NULL)
+    {
+        em_ordem(raiz->esq);
+        printf("%d\n", raiz->dado);
+        em_ordem(raiz->dir);
+    }
+
+}
+
+void pre_ordem (no *raiz)
+{
+    if (raiz != NULL)
+    {
+        printf("%d\n", raiz->dado);
+        pre_ordem(raiz->esq);
+        pre_ordem(raiz->dir);
+    }
+}
 

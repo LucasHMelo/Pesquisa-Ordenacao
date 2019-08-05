@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1564422386 source:c:\users\lucas\desktop\iftm - 20192\po\2907\arvore\main.c
+1564424133 source:c:\users\lucas\desktop\iftm - 20192\po\2907\arvore\main.c
 	<stdio.h>
 	<stdlib.h>
 	"biblio.h"
 	<locale.h>
 	<conio.h>
 
-1564418185 c:\users\lucas\desktop\iftm - 20192\po\2907\arvore\biblio.h
+1564424125 c:\users\lucas\desktop\iftm - 20192\po\2907\arvore\biblio.h
 
-1564421902 source:c:\users\lucas\desktop\iftm - 20192\po\2907\arvore\arvorerecursiva.c
+1564423032 source:c:\users\lucas\desktop\iftm - 20192\po\2907\arvore\arvorerecursiva.c
 	<stdio.h>
 	<stdlib.h>
 	<locale.h>
