@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1566237832 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\arvoreb.c
+	"arvoreB.h"
+
+1566238039 d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566228173 d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566228302 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\lista.c
+	"Lista.h"
+
+1566237853 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreB.h"
+
+1566400124 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v1\arvoreb.c
+	"arvoreB.h"
+
+1566238039 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v1\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566228173 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v1\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566399954 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v1\lista.c
+	"Lista.h"
+
+1566400178 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreB.h"
+
+1566399954 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v2\lista.c
+	"Lista.h"
+
+1566228173 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v2\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566831063 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v3\lista.c
+	"Lista.h"
+
+1566228173 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v3\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566831110 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreB.h"
+
+1566238039 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v3\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566829642 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v3\arvoreb.c
+	"arvoreB.h"
+
+1566238039 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v3\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566228173 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v3\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1567600039 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v4\lista.c
+	"Lista.h"
+
+1567450166 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v4\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1567605527 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreB.h"
+
+1567450166 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v4\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1567605178 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v4\arvoreb.c
+	"arvoreB.h"
+
+1567607909 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v5a\arvoreb.c
+	"arvoreB.h"
+
+1567450166 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v5a\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1567450166 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v5a\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1567614377 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v5a\lista.c
+	"Lista.h"
+
+1567605825 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v5a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreB.h"
+
+1567734204 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v6\lista.c
+	"Lista.h"
+
+1567734204 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v6\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1567738274 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreB.h"
+
+1567450166 d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v6\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1567738274 source:d:\iftm\disciplinas\pesquisa e ordenacao\programas\btree_2019_1_v6\arvoreb.c
+	"arvoreB.h"
+

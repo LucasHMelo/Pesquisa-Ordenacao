@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1566228214 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\arvoreb.c
+	"arvoreB.h"
+
+1566228214 d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566228173 d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566228302 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\lista.c
+	"Lista.h"
+
+1566226803 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1566407853 source:c:\users\lucas\desktop\iftm - 20192\po\1908\btree2\2019-08-19_14-27-10_btree_2019_1_v2\btree_2019_1_v1\lista.c
+	"Lista.h"
+
+1566228173 c:\users\lucas\desktop\iftm - 20192\po\1908\btree2\2019-08-19_14-27-10_btree_2019_1_v2\btree_2019_1_v1\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566409083 source:c:\users\lucas\desktop\iftm - 20192\po\1908\btree2\2019-08-19_14-27-10_btree_2019_1_v2\btree_2019_1_v1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+	"ArvoreB.h"
+	<locale.h>
+	<conio.h>
+
+1566233441 c:\users\lucas\desktop\iftm - 20192\po\1908\btree2\2019-08-19_14-27-10_btree_2019_1_v2\btree_2019_1_v1\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566408070 source:c:\users\lucas\desktop\iftm - 20192\po\1908\btree2\2019-08-19_14-27-10_btree_2019_1_v2\btree_2019_1_v1\arvoreb.c
+	"arvoreB.h"
+

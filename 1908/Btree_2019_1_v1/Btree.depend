@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1566228214 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\arvoreb.c
+	"arvoreB.h"
+
+1566228214 d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566228173 d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566228302 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\lista.c
+	"Lista.h"
+
+1566226803 source:d:\iftm\disciplinas\pesquisa e ordenação\programas\btree_2019_1_v1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1566228939 source:c:\users\lucas\desktop\iftm - 20192\po\1908\btree_2019_1_v1\arvoreb.c
+	"arvoreB.h"
+
+1566228369 c:\users\lucas\desktop\iftm - 20192\po\1908\btree_2019_1_v1\arvoreb.h
+	"Lista.h"
+	<Math.h>
+
+1566228173 c:\users\lucas\desktop\iftm - 20192\po\1908\btree_2019_1_v1\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1566228302 source:c:\users\lucas\desktop\iftm - 20192\po\1908\btree_2019_1_v1\lista.c
+	"Lista.h"
+
+1566226803 source:c:\users\lucas\desktop\iftm - 20192\po\1908\btree_2019_1_v1\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1565200583 source:c:\users\lucas\desktop\iftm - 20192\po\0508\arvoreb\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1565200778 source:c:\users\lucas\desktop\iftm - 20192\po\0508\arvoreb\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1565199332 c:\users\lucas\desktop\iftm - 20192\po\0508\arvoreb\lista.h
+	<stdio.h>
+	<stdlib.h>
+
+1565199722 c:\users\lucas\desktop\iftm - 20192\po\0508\arvoreb\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+

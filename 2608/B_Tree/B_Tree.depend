@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1566927881 source:c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\btree_util.c
+	"btree_util.h"
+
+1566928129 c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\btree_util.h
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"util.h"
+
+1566928118 c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\util.h
+
+1566927829 source:c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\main.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	"btree.h"
+	"btree_tools.h"
+
+1566927988 c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\btree.h
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"util.h"
+	"btree_util.h"
+
+1566928036 c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\btree_tools.h
+	<stdio.h>
+	"btree.h"
+
+1566928267 source:c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\btree.c
+	"btree.h"
+	"btree_util.h"
+
+1566928260 source:c:\users\lucas\desktop\iftm - 20192\po\2608\b_tree\btree_tools.c
+	"btree_tools.h"
+	"btree_util.h"
+
